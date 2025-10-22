@@ -1,15 +1,19 @@
-body {
-    background-color: #FFFFE0; /* warna kuning cerah */
-    font-family: Arial, sans-serif; /* jenis huruf yang bersih dan mudah dibaca */
-    color: #191970; /* warna teks utama (biru gelap) */
+/* ==== Tengahin isi halaman di semua ukuran layar ==== */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-    display: flex;                 /* aktifkan flexbox */
-    justify-content: center;       /* horizontal center */
-    align-items: center;           /* vertical center */
-    min-height: 100vh;             /* tinggi minimum 100% layar */
-    margin: 0;                     /* hilangkan jarak default browser */
-    padding: 20px;                 /* biar gak terlalu mepet di HP */
-    box-sizing: border-box;
+body {
+    background-color: #FFFFE0;
+    font-family: Arial, sans-serif;
+    color: #191970;
+
+    display: flex;             /* aktifkan flexbox */
+    justify-content: center;   /* posisi horizontal di tengah */
+    align-items: center;       /* posisi vertikal di tengah */
+    flex-direction: column;    /* biar footer tetap di bawah */
 }
 
 .kartu-profil {
