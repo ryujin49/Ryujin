@@ -17,4 +17,24 @@ body {
 .kartu-profil img {
     width: 50px;
     border-radius: 50%; /* membuat gambar menjadi lingkaran */
+    
 }
+
+/* ===== Gaya untuk semua tombol ===== */
+button {
+    background-color: #191970;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+/* Efek saat kursor diarahkan ke tombol */
+button:hover {
+    background-color: #4169E1;
+}
+
