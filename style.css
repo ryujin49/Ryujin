@@ -127,4 +127,16 @@ button:hover {
     background-color: #f5f5c6;
 }
 
+.link-ig {
+    color: #E1306C;           /* warna khas Instagram */
+    text-decoration: none;     /* hilangkan garis bawah */
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.link-ig:hover {
+    color: #C13584;            /* warna saat hover */
+    text-decoration: underline; /* kasih garis bawah saat hover */
+}
+
 
