@@ -83,4 +83,48 @@ button:hover {
         font-size: 14px;
     }
 }
+/* ✨ Efek animasi saat kartu muncul */
+.kartu-profil {
+    animation: fadeInUp 0.8s ease-out;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 💫 Efek hover pada kartu */
+.kartu-profil:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* 🌗 Mode Gelap */
+.dark-mode {
+    background-color: #191970;
+    color: #FFFFE0;
+}
+
+.dark-mode .kartu-profil {
+    background-color: #2f2f6f;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode button {
+    background-color: #FFFFE0;
+    color: #191970;
+}
+
+.dark-mode button:hover {
+    background-color: #f5f5c6;
+}
+
 
