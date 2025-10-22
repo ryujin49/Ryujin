@@ -26,6 +26,14 @@ body {
     text-align: center; /* menengahkan semua teks di dalam kartu */
 }
 
+/* ==== Tambahan biar di HP gak kepotong ==== */
+@media (max-height: 600px) {
+    body {
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+
+/*  */
 .kartu-profil img {
     width: 100px;
     border-radius: 50%; /* membuat gambar menjadi lingkaran */
