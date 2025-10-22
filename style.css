@@ -138,5 +138,16 @@ button:hover {
     color: #C13584;            /* warna saat hover */
     text-decoration: underline; /* kasih garis bawah saat hover */
 }
+/* ==== Link TikTok ==== */
+.link-tiktok {
+    color: #000000;           /* warna dasar hitam */
+    font-weight: bold;
+    text-decoration: none;    /* hilangkan garis bawah */
+    transition: all 0.3s ease;
+}
 
-
+.link-tiktok:hover {
+    color: #69C9D0;           /* biru khas TikTok saat hover */
+    text-decoration: underline;
+    transform: scale(1.05);   /* efek sedikit membesar saat hover */
+}
