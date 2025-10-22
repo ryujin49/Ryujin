@@ -3,7 +3,7 @@ const tombolSapa = document.getElementById('sapaButton');
 
 // Fungsi untuk tombol "Sapa saya!"
 tombolSapa.addEventListener('click', function() {
-  alert('Halo! Terima kasih sudah berkunjung, Kuze-chan! 💙');
+  alert('Halo! Terima kasih sudah berkunjung,');
 });
 
 // Tombol baru: "Ganti Warna Latar"
