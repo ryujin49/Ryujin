@@ -127,27 +127,34 @@ button:hover {
     background-color: #f5f5c6;
 }
 
+.akun-sosial {
+    display: flex;
+    justify-content: center; /* sejajar di tengah */
+    gap: 15px;               /* jarak antar link */
+    margin-top: 15px;
+}
+
+/* Instagram */
 .link-ig {
-    color: #E1306C;           /* warna khas Instagram */
-    text-decoration: none;     /* hilangkan garis bawah */
+    color: #E1306C;
+    text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
 }
-
 .link-ig:hover {
-    color: #C13584;            /* warna saat hover */
-    text-decoration: underline; /* kasih garis bawah saat hover */
+    color: #C13584;
+    text-decoration: underline;
 }
-/* ==== Link TikTok ==== */
+
+/* TikTok */
 .link-tiktok {
-    color: #000000;           /* warna dasar hitam */
+    color: #000000;
+    text-decoration: none;
     font-weight: bold;
-    text-decoration: none;    /* hilangkan garis bawah */
     transition: all 0.3s ease;
 }
-
 .link-tiktok:hover {
-    color: #69C9D0;           /* biru khas TikTok saat hover */
+    color: #69C9D0;
     text-decoration: underline;
-    transform: scale(1.05);   /* efek sedikit membesar saat hover */
+    transform: scale(1.05);
 }
