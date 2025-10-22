@@ -36,8 +36,9 @@ body {
 /*  */
 .kartu-profil img {
     width: 50px;
-    border-radius: 50%; /* membuat gambar menjadi lingkaran */
-    
+    height: 100px;  /* tambahkan ini kalau mau proporsional */
+    border-radius: 50%;
+    object-fit: cover; /* biar gambar gak gepeng */
 }
 
 /* ===== Gaya untuk semua tombol ===== */
