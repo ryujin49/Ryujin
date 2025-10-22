@@ -59,3 +59,28 @@ button:hover {
     background-color: #4169E1;
 }
 
+.kartu-profil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* 📱 Kalau layar kecil (misalnya HP), ubah ukuran foto jadi lebih kecil */
+@media (max-width: 480px) {
+    .kartu-profil img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .kartu-profil {
+        width: 85%;
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
